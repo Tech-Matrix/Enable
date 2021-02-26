@@ -61,6 +61,7 @@ class MainPage extends StatelessWidget {
                     textColor: Colors.black,
                     splashColor: Colors.grey,
                     padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
+                    //.all
                     child: Text('DONATE'),
                   ),
                 ),
