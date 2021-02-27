@@ -41,7 +41,7 @@ class _SellPageState extends State<SellPage> {
           title: Text("CHOOSE THE GARMENT"),
         ),
         body: Container(
-          padding: EdgeInsets.all(100.0),
+          padding: EdgeInsets.all(160.0),
           
           child: DropdownButton(
               value: _value,
