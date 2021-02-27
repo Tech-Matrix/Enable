@@ -42,8 +42,64 @@ class _SellPageState extends State<SellPage> {
         ),
         body: Container(
           padding: EdgeInsets.all(160.0),
+          child: ListView(
+          padding: EdgeInsets.symmetric(horizontal: 20.0),
+          children: <Widget>[
+           
+            SizedBox(height: 5.0),
+            
+            TextField(
+              controller: _locationController,
+              decoration: InputDecoration(
+                hintText: ('Enter the location of the animal'),
+                 
+                filled: true,
+                fillColor : Colors.white,
+                labelText: 'Location',
+             
+              ),
+              style: TextStyle(color: Colors.black, fontSize: 20),  
+
+            ),
+            
+            SizedBox(height: 5.0),
+            
+            TextField(
+              controller: _causeController,
+              decoration: InputDecoration(
+                hintText: ('Enter the cause of concern'),
+                 
+                filled: true,
+                fillColor : Colors.white,
+                labelText: 'Cause',
+             
+              ),
+              style: TextStyle(color: Colors.black, fontSize: 20),  
+
+            ),
+            
+            ButtonBar(
+              
+              children: <Widget>[
+                
+                RaisedButton(
+                  child: Text('SUBMIT'),
+                  textColor: Colors.black,
+                  onPressed: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MainPage()),
+                  ),
+                ),
+
+
+              ],
+
+
+            ),   
           
-          child: DropdownButton(
+          ],
+        ),
+          /*child: DropdownButton(
               value: _value,
               items: [
                 DropdownMenuItem(
