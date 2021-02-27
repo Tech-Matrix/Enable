@@ -10,7 +10,7 @@ class LoginPage extends StatefulWidget {
 }
 
 
-
+/*
 class AuthService with ChangeNotifier {
   var currentUser;
 
@@ -48,6 +48,7 @@ class AuthService with ChangeNotifier {
     }
   }
 }
+*/
 class _LoginPageState extends State<LoginPage> {
   final _formKey = GlobalKey<FormState>();
   String _password;
