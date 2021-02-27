@@ -63,7 +63,7 @@ class _LoginPageState extends State<LoginPage> {
              
                 
               ),
-              style: TextStyle(color: Colors.black, fontSize: 25),  
+              //style: TextStyle(color: Colors.black, fontSize: 25),  
 
             ),
             // spacer
