@@ -20,8 +20,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
-
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -37,9 +35,6 @@ class MainPage extends StatelessWidget {
 
           child: Align(
             alignment: Alignment.center,
-
-            
-        
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -104,7 +99,7 @@ class MainPage extends StatelessWidget {
                   ),
                 ),
                 Divider(height: 100),
-                
+
                 /*Padding( 
                   padding: EdgeInsets.all(10.0),*/
                 SizedBox(
