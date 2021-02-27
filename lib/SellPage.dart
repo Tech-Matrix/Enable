@@ -42,6 +42,7 @@ class _SellPageState extends State<SellPage> {
         ),
         body: Container(
           padding: EdgeInsets.all(40.0),
+          child: Column(
           child: DropdownButton(
               value: _value,
               items: [
@@ -72,10 +73,12 @@ class _SellPageState extends State<SellPage> {
                   _value = value;
                 });
               }),
-          /*child: RaisedButton(
+
+          child: RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
-        ),*/
-        ));
+        ),
+        )),
+    );
   }
 }
