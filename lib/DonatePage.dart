@@ -72,10 +72,10 @@ class _DonatePageState extends State<DonatePage> {
                   _value = value;
                 });
               }),
-              child: RaisedButton(
+              /*child: RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
-        ),
+        ),*/
         ));
   }
 }
