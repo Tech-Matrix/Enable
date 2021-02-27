@@ -42,7 +42,7 @@ class _SellPageState extends State<SellPage> {
         ),
         body: Container(
           padding: EdgeInsets.all(40.0),
-          child: Column(
+          children: Column(
           child: DropdownButton(
               value: _value,
               items: [
