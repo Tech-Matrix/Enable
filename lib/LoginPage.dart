@@ -56,6 +56,7 @@ class _LoginPageState extends State<LoginPage> {
             TextField(
               controller: _usernameController,
               
+              decoration: InputDecoration(
                 
                 filled: true,
                 fillColor : Colors.white,
@@ -63,7 +64,7 @@ class _LoginPageState extends State<LoginPage> {
              
                 
               ),
-              //style: TextStyle(color: Colors.black, fontSize: 25),  
+              style: TextStyle(color: Colors.black, fontSize: 25),  
 
             ),
             // spacer
