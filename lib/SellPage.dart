@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'main.dart';
 /*
 class SellPage extends StatelessWidget {
   @override
@@ -48,6 +49,7 @@ class _SellPageState extends State<SellPage> {
                   child: Text("Shirt"),
                   value: 1,
                 ),
+                Divider(),
                 DropdownMenuItem(
                   child: Text("Pant"),
                   value: 2,
@@ -70,10 +72,10 @@ class _SellPageState extends State<SellPage> {
                   _value = value;
                 });
               }),
-              child: RaisedButton(
+          /*child: RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
-        ),
+        ),*/
         ));
   }
 }
