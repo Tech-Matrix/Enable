@@ -74,10 +74,10 @@ class _SellPageState extends State<SellPage> {
                 });
               }),
 
-          child: RaisedButton(
+          /*child: RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
-        ),
+        ),*/
         ),
     );
   }
