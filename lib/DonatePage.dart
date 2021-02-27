@@ -15,7 +15,7 @@ class _DonatePageState extends State<DonatePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("WHAT WOULD YOU LIKE TO DONATE?"),
+          title: Text("CHOOSE THE GARMENT"),
         ),
         body: Container(
           padding: EdgeInsets.all(160.0),
