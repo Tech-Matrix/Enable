@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart'
 import 'SellPage.dart';
 import 'DonatePage.dart';
 import 'BuyPage.dart';
-import 'LoginPage2.dart';
+import 'LoginPage.dart';
 
 void main() => runApp(MyApp());
 
