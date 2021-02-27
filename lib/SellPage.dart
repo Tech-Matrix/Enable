@@ -129,7 +129,7 @@ class _SellPageState extends State<SellPage> {
                   _value = value;
                 });
               }),
-
+*/
           /*child: RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
