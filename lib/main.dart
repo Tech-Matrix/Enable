@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'SellPage.dart';
 import 'DonatePage.dart';
 import 'BuyPage.dart';
-import 'LoginPage.dart';
+import 'LoginPage2.dart';
 
 void main() => runApp(MyApp());
 
