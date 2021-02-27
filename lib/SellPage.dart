@@ -49,7 +49,7 @@ class _SellPageState extends State<SellPage> {
                   child: Text("Shirt"),
                   value: 1,
                 ),
-                Divider(),
+                
                 DropdownMenuItem(
                   child: Text("Pant"),
                   value: 2,
