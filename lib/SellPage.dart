@@ -191,8 +191,9 @@ class _SellPageState extends State<SellPage> {
           /*child: RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
-        ),*/
+        ),
         ),
     );
   }
 }
+*/
