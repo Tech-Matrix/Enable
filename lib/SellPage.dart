@@ -38,10 +38,10 @@ class _SellPageState extends State<SellPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Dropdown "),
+          title: Text("CHOOSE THE GARMENT"),
         ),
         body: Container(
-          padding: EdgeInsets.all(40.0),
+          padding: EdgeInsets.all(100.0),
           
           child: DropdownButton(
               value: _value,
