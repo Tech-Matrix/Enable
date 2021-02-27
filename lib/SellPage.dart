@@ -48,11 +48,7 @@ class _SellPageState extends State<SellPage> {
               items: [
                 DropdownMenuItem(
                   child: Text("Shirt"),
-                  child: SizedBox(
-      width: 100.0, // for example
-      child: Text(value, textAlign: TextAlign.center),
-    ),
-                  value: 1,
+                   value: 1,
                 ),
                 
                 DropdownMenuItem(
