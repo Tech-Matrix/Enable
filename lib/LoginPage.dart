@@ -1,4 +1,4 @@
-/* 
+
 import 'package:flutter/material.dart';
 import 'main.dart';
 
@@ -113,7 +113,7 @@ class _LoginPageState extends State<LoginPage> {
 
 
 
-                /*RaisedButton(
+                RaisedButton(
                   child: Text('LOGIN'),
                   onPressed: () {
                     // TODO: Show the next page (101)
@@ -130,4 +130,4 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
- */
+ 

@@ -1,4 +1,4 @@
-/*import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 class DonatePage extends StatelessWidget {
   @override
@@ -23,4 +23,3 @@ class DonatePage extends StatelessWidget {
     );
   }
 }
-*/
