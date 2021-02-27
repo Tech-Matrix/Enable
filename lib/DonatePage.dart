@@ -18,7 +18,7 @@ class _DonatePageState extends State<DonatePage> {
           title: Text("CHOOSE THE GARMENT"),
         ),
         body: Container(
-          padding: EdgeInsets.all(160.0),
+          padding: EdgeInsets.fromLTRB(160.0, 40,40,160),
           child: DropdownButton(
               value: _value,
               items: [
