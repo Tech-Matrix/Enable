@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
-/*
+
 class SellPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -15,6 +15,63 @@ class SellPage extends StatelessWidget {
                         image: NetworkImage("https://i.pinimg.com/236x/29/aa/0d/29aa0d016d0e994677556bcbaebc5e46.jpg"),
                         fit: BoxFit.cover,
                         )),
+                        child: ListView(
+          padding: EdgeInsets.symmetric(horizontal: 20.0),
+          children: <Widget>[
+           
+            SizedBox(height: 5.0),
+            
+            TextField(
+              controller: _locationController,
+              decoration: InputDecoration(
+                hintText: ('Enter the location of the animal'),
+                 
+                filled: true,
+                fillColor : Colors.white,
+                labelText: 'Location',
+             
+              ),
+              style: TextStyle(color: Colors.black, fontSize: 20),  
+
+            ),
+            
+            SizedBox(height: 5.0),
+            
+            TextField(
+              controller: _causeController,
+              decoration: InputDecoration(
+                hintText: ('Enter the cause of concern'),
+                 
+                filled: true,
+                fillColor : Colors.white,
+                labelText: 'Cause',
+             
+              ),
+              style: TextStyle(color: Colors.black, fontSize: 20),  
+
+            ),
+            
+            ButtonBar(
+              
+              children: <Widget>[
+                
+                RaisedButton(
+                  child: Text('SUBMIT'),
+                  textColor: Colors.black,
+                  onPressed: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MainPage()),
+                  ),
+                ),
+
+
+              ],
+
+
+            ),   
+          
+          ],
+        ),
         child: RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
@@ -23,7 +80,8 @@ class SellPage extends StatelessWidget {
     );
   }
 }
-*/
+
+/*
 class SellPage extends StatefulWidget {
   @override
   _SellPageState createState() => _SellPageState();
@@ -98,7 +156,7 @@ class _SellPageState extends State<SellPage> {
             ),   
           
           ],
-        ),
+        ),*/
           /*child: DropdownButton(
               value: _value,
               items: [
