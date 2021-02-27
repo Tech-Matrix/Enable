@@ -1,30 +1,6 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
-/*
-class DonatePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-       
-    return Scaffold(
-      backgroundColor: Colors.deepOrange,
-      appBar: AppBar(
-        title: Text('DONATE YOUR UNIFORM'),
-      ),
-      body: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(
-          image: NetworkImage("https://i.pinimg.com/236x/29/aa/0d/29aa0d016d0e994677556bcbaebc5e46.jpg"),
-          fit: BoxFit.cover,
-        )),
-        child: RaisedButton(
-          onPressed: () => Navigator.pop(context),
-          child: Text('Back'),
-        ),
-      ),
-    );
-  }
-}
-*/
+
 class DonatePage extends StatefulWidget {
   @override
   _DonatePageState createState() => _DonatePageState();
@@ -39,10 +15,10 @@ class _DonatePageState extends State<DonatePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Dropdown "),
+          title: Text("WHAT WOULD YOU LIKE TO DONATE?"),
         ),
         body: Container(
-          padding: EdgeInsets.all(40.0),
+          padding: EdgeInsets.all(160.0),
           child: DropdownButton(
               value: _value,
               items: [
