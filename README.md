@@ -1,5 +1,9 @@
 # Navigation Over Screens
 
+video: https://www.youtube.com/watch?v=ocIaNPAWlwg
+
+medium blog: https://medium.com/newolf-society/enable-your-green-window-30b0ff4e3008
+
 A new Flutter project created with [FlutLab](https://flutlab.io)
 
 ### Getting Started: FlutLab - Flutter Online IDE
